@@ -26,12 +26,3 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--title-color);
   font-family: 'Ubuntu', sans-serif;
 }
-
-/* BOX MODEL
-Modelo de caixa
-Toda caixa tem:
-largura, altura, espaçamento, preenchimentos,
-bordas, cor, fundo, maneira que é vista pelo html (display),
-posicionamento, alinhamentos
-*/
-

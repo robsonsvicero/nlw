@@ -1,3 +1,11 @@
+/* BOX MODEL
+Modelo de caixa
+Toda caixa tem:
+largura, altura, espaçamento, preenchimentos,
+bordas, cor, fundo, maneira que é vista pelo html (display),
+posicionamento, alinhamentos
+*/
+
 #modal {
   background-color: #0e0a14ef;
 
