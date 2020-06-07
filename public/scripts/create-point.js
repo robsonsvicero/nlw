@@ -63,6 +63,8 @@ function handleSelectedItem(event) {
   itemLi.classList.toggle("selected")
 
   const itemId = itemLi.dataset.id
+
+  console.log('ITEM ID: ', itemId)
     
   //Verificar se existem itens selecionados, se sim
   //pegar os itens selecionados
@@ -85,6 +87,8 @@ function handleSelectedItem(event) {
     //se não estiver selecionado adicionar a seleção
     selectedItems.push(itemId)
   }
+
+  console.log('selected Item: ', selectedItems)
 
   //atualizar o campo escondido com os itens selecionados
   collectedItems.value = selectedItems
